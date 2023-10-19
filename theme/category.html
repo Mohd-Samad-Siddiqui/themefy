@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
 <html lang="zxx">
 
 <head>
   <meta charset="utf-8">
-  <title>Parsa | Portfolio Template</title>
+  <title>MyDumbooo | Playlist</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,10 +20,21 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon3.png" type="image/png">
+
+  <style>
+    .play-pause-button {
+        display: inline-block;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+  </style>
 
 </head>
 
@@ -48,44 +52,44 @@
   </div>
   <!-- /preloader -->
 
-<header class="navigation">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="logo-name">
-      <h3 style="color: rgb(78, 9, 143); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">TestingBrand</h3>
-    </div>
-
-    <div class="collapse navbar-collapse text-center" id="navogation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="navbarDropdown"
-            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Home
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="index.html">Homepage 1</a>
-            <a class="dropdown-item" href="homepage-2.html">Homepage 2</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="category.html">Categories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-uppercase text-dark" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
+  <header class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div class="logo-name">
+          <h2
+            style="color: rgb(243, 108, 45); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">
+            MyDumbooo</h2>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mynav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="mynav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-uppercase text-dark" href="category.html">Playlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-dark" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 <!-- page-title -->
 <section class="section bg-secondary">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h4>Fashion</h4>
+        <h4>Playlist</h4>
+        <h6>For you, I hope you'll like it..</h6>
       </div>
     </div>
   </div>
@@ -100,170 +104,188 @@
         <div class="row masonry-container pt-5">
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-1.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/99Names.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">Atif Asalam</p>
+              <h4 class="title-border">Asma-ul-Husna</h4>
+              <p><b>What is Allah's first name?</b><br>
+                AR-RAHMAAN<br>
+                The recitation of these names helps to increase faith in Allah, enabling believers to become closer to Him, leading to tranquility and inner peace.
+              </p>
+
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Asma-ul-Husna - Atif Aslam_320(MyMp3Song).mp3" controls></audio></div>
+            
             </article>
           </div>
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-2.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/Kishore kumar calligraphic portrait.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">Kishore Kumar</p>
+              <h4 class="title-border">Mere Mehboob Qayamt Hogi</h4>
+              <p><b>Why Kishore Kumar is greatest singer?</b><br>
+                His voice was so versatile that he could sing in different moods and styles, from romantic to sad, from fun to philosophical. His voice made him one of the most celebrated singers of all time. Kishore Kumar's contribution to the Indian music industry is unparalleled.</p>
+                
+                <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Mere Mehboob Qayamat Hogi - (Raag.Fm).mp3" controls></audio></div>
+              
             </article>
           </div>
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-3.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/kana-yaari-wahab-bugti-696x1024.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">WAHAB BUGTI</p>
+              <h4 class="title-border">Kana Yaari</h4>
+              <p><b>Wahab Bugti</b> became the face of Baloch music industry and his beautiful talent was recognized in Pakistan and also internationally. He also went through the most difficult time in his life as he was a victim of the devastating floods in Balochistan.</p>
+              
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Kana Yaari(PagalWorld.com.pe).mp3" controls></audio></div>
+              
             </article>
           </div>
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-4.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/Al-Anbiya.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">TWO SISTERS</p>
+              <h4 class="title-border">SueLius - Rahmatun Lil Alamiin</h4>
+              <p>
+                <b>The concept of Rahmatul lil Alameen</b> in Islam means to “provide grace to all mankind and the environment.”<br>
+                This concept was taken from al-Qur'an surah al-Anbiya '(21) verse 107, which states that Islam is a religion that brings goodness to all mankind and the universe.
+              </p>
+
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/SueLius - Rahmatun Lil Alamiin.mp3" controls></audio></div>
+              
             </article>
           </div>
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-8.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/Dil Diyan Gallan.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">ARIJIT SINGH</p>
+              <h4 class="title-border">Dil Diyan Gallan</h4>
+              <p><b>The original soundtrack</b> of the song “Dil Diyan Gallan” from the movie “Tiger Zinda Hai” is sung by Atif Aslam. Arijit Singh has sung a reprise version of this song in his MTV India Tour in Chandigarh.</p>
+              
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Dil Diyan Gallan Tiger Zinda Hai 128 Kbps.mp3" controls></audio></div>
+              
             </article>
           </div>
           <div class="col-sm-6 mb-5">
             <article class="text-center">
-              <img class="img-fluid mb-4" src="images/masonary-post/post-10.jpg" alt="post-thumb">
-              <p class="text-uppercase mb-2">TRAVEL</p>
-              <h4 class="title-border"><a class="text-dark" href="blog-single.html">Charming Evening Field</a></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex
-                ea commodo consequat.</p>
-              <a href="blog-single.html" class="btn btn-transparent">read more</a>
+              <img class="img-fluid mb-4" src="images/Pin by Komal Rathor on Background _ Khuda aur mohabbat, Aiza khan wedding, Beautiful love status.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">RAHAT FATEH ALI KHAN</p>
+              <h4 class="title-border">Khuda Aur Mohabbat</h4>
+              <p>
+                <b>StoryLine</b><br>Though Mahi appreciates Farhad's efforts, she does not have the same feelings for him. In the quest to win Mahi's heart, Farhad finds himself forming a special bond with his creator and becomes a devotee of love. In this classic love story, two star-crossed souls struggle to fight for their love.
+              </p>
+              
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Khuda Aur Mohabbat Season 3 OST Song Rahat Fateh Ali Khan.mp3" controls></audio></div>
+              
+            </article>
+          </div>
+          <div class="col-sm-6 mb-5">
+            <article class="text-center">
+              <img class="img-fluid mb-4" src="images/Kaifi khalil _ kahani suno _ poetry _ mujhe pyar howa tha _ syeda shah _ singer.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">KAIFI KHALIL</p>
+              <h4 class="title-border">Mujhe Pyaar Hua Tha</h4>
+              <p><b>The Beautiful Soundtrack.</b> Kaifi Khalil’s song, Kahani Suno, makes one beautiful OST for Mujhe Pyaar Hua Tha. Majority of the audience watched and got to know about the show because of Kaifi’s vocals.</p>
+              
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Mujhe-Pyar-Hua-Tha-(OST)(PagalWorldl).mp3" controls></audio></div>
+              
+            </article>
+          </div>
+          <div class="col-sm-6 mb-5">
+            <article class="text-center">
+              <img class="img-fluid mb-4" src="images/artworks-yiOiHzK45JARcxeF-LySNjw-t500x500.jpg" alt="post-thumb">
+              <p class="text-uppercase mb-2">MAJID ALI KHAN</p>
+              <h4 class="title-border">Tere Naal Gallan Hoiyan</h4>
+              <p><b>What is the meaning of Musht-e-KHaak?
+                </b> Handful of dust, human being</p>
+              
+              <div style="@media (max-width: 700px) { margin-left: 3vw }"><audio src="audio/Tere-Naal-Gallan-Hoiyan-Gallan-Ne-Hazar(PagalWorld).mp3" controls></audio></div>
+              
             </article>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <nav>
-              <ul class="pagination justify-content-center align-items-center">
-                <li class="page-item">
-                  <span class="page-link">&laquo; Previous</span>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">01</a></li>
-                <li class="page-item active">
-                  <span class="page-link">02</span>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">03</a></li>
-                <li class="page-item"><a class="page-link" href="#">04</a></li>
-                <li class="page-item"><a class="page-link" href="#">05</a></li>
-                <li class="page-item"><a class="page-link" href="#">06</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#">Next &raquo;</a>
-                </li>
-              </ul>
-            </nav>
+          
           </div>
         </div>
       </div>
+
+
       <!-- /blog post -->
       <div class="col-lg-4">
-        <div class="widget search-box">
-          <i class="ti-search"></i>
-          <input type="search" id="search-post" class="form-control border-0 pl-5" name="search-post"
-            placeholder="Search">
-        </div>
         <div class="widget">
           <h6 class="mb-4">LATEST POST</h6>
           <div class="media mb-4">
             <div class="post-thumb-sm mr-3">
-              <img class="img-fluid" src="images/masonary-post/post-1.jpg" alt="post-thumb">
+              <img class="img-fluid" src="images/masonary-post/pic (20).jpg" alt="post-thumb">
             </div>
             <div class="media-body">
               <ul class="list-inline d-flex justify-content-between mb-2">
-                <li class="list-inline-item">Post By Jhon</li>
-                <li class="list-inline-item">June 2, 2018</li>
+                <li class="list-inline-item">Post By Dorkie</li>
+                <li class="list-inline-item">Oct 17, 2023</li>
               </ul>
-              <h6><a class="text-dark" href="blog-single.html">Lorem ipsum dolor sit amet, consectetur</a></h6>
+              <h6><a class="text-dark">Dorkiee loves you a lot dumbooo ❤</a></h6>
             </div>
           </div>
           <div class="media mb-4">
             <div class="post-thumb-sm mr-3">
-              <img class="img-fluid" src="images/masonary-post/post-6.jpg" alt="post-thumb">
+              <img class="img-fluid" src="images/masonary-post/pic (59).jpg" alt="post-thumb">
             </div>
             <div class="media-body">
               <ul class="list-inline d-flex justify-content-between mb-2">
-                <li class="list-inline-item">Post By Jhon</li>
-                <li class="list-inline-item">June 2, 2018</li>
+                <li class="list-inline-item">Post By Dorkie</li>
+                <li class="list-inline-item">Oct 18, 2023</li>
               </ul>
-              <h6><a class="text-dark" href="blog-single.html">Lorem ipsum dolor sit amet, consectetur</a></h6>
+              <h6><a class="text-dark">Like always he got late to give your gift on time😐</a></h6>
             </div>
           </div>
           <div class="media mb-4">
             <div class="post-thumb-sm mr-3">
-              <img class="img-fluid" src="images/masonary-post/post-3.jpg" alt="post-thumb">
+              <img class="img-fluid" src="images/masonary-post/pic (1).jpg" alt="post-thumb">
             </div>
             <div class="media-body">
               <ul class="list-inline d-flex justify-content-between mb-2">
-                <li class="list-inline-item">Post By Jhon</li>
-                <li class="list-inline-item">June 2, 2018</li>
+                <li class="list-inline-item">Post By Dorkie</li>
+                <li class="list-inline-item">Oct 18, 2023</li>
               </ul>
-              <h6><a class="text-dark" href="blog-single.html">Lorem ipsum dolor sit amet, consectetur</a></h6>
+              <h6><a class="text-dark">Maybe this small website for you will make up..</a></h6>
+            </div>
+          </div>
+          <div class="media mb-4">
+            <div class="post-thumb-sm mr-3">
+              <img class="img-fluid" src="images/masonary-post/pic (73).jpg" alt="post-thumb">
+            </div>
+            <div class="media-body">
+              <ul class="list-inline d-flex justify-content-between mb-2">
+                <li class="list-inline-item">Post By Dorkie</li>
+                <li class="list-inline-item">Oct 18, 2023</li>
+              </ul>
+              <h6><a class="text-dark">You can ask me to change your playlist anytime.</a></h6>
+            </div>
+          </div>
+          <div class="media mb-4">
+            <div class="post-thumb-sm mr-3">
+              <img class="img-fluid" src="images/masonary-post/pic (51).jpg" alt="post-thumb">
+            </div>
+            <div class="media-body">
+              <ul class="list-inline d-flex justify-content-between mb-2">
+                <li class="list-inline-item">Post By Dorkie</li>
+                <li class="list-inline-item">Oct 19, 2023</li>
+              </ul>
+              <h6><a class="text-dark">I thought this site would get completed by yesterday but unfortunately it didn't happen. Inshaallah it'll get completed by today.</h6>
             </div>
           </div>
         </div>
         <div class="widget">
           <h6 class="mb-4">TAG</h6>
           <ul class="list-inline tag-list">
-            <li class="list-inline-item m-1"><a href="blog-single.html">ui ux</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">developmetns</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">travel</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">article</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">travel</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">ui ux</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">article</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">developmetns</a></li>
-          </ul>
-        </div>
-        <div class="widget">
-          <h6 class="mb-4">CATEGORIES</h6>
-          <ul class="list-inline tag-list">
-            <li class="list-inline-item m-1"><a href="blog-single.html">ui ux</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">developmetns</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">travel</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">article</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">travel</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">ui ux</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">article</a></li>
-            <li class="list-inline-item m-1"><a href="blog-single.html">developmetns</a></li>
+            <li class="list-inline-item m-1"><a href="#">dorkiee</a></li>
+            <li class="list-inline-item m-1"><a href="#">loves</a></li>
+            <li class="list-inline-item m-1"><a href="#">dumbooo</a></li>
+            <li class="list-inline-item m-1"><a href="#">a lot</a></li><br>
+            <li class="list-inline-item m-1"><a href="#">dorkiee</a></li>
+            <li class="list-inline-item m-1"><a href="#">will</a></li>
+            <li class="list-inline-item m-1"><a href="">meet</a></li>
+            <li class="list-inline-item m-1"><a href="">you</a></li>
+            <li class="list-inline-item m-1"><a href="">sooooon</a></li>
           </ul>
         </div>
       </div>
@@ -277,20 +299,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="index.html"><img src="images/logo.png" alt="persa" class="img-fluid"></a>
+          <h4 style="color: rgb(243, 108, 45); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">MyDumbooo</h4>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Address</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Sydney</li>
-            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
+            <li class="font-secondary text-dark">I know it's cheesy but,</li>
+            <li class="font-secondary text-dark">My ❤</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
-            <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
+            <li class="font-secondary text-dark">Tel: +90 xxxx xxxx</li>
+            <li class="font-secondary text-dark">Mail: dorkiee@ymail.com</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
@@ -307,7 +329,7 @@
   </div>
   <div class="text-center pb-3">
     <p class="mb-0">Copyright ©<script>var CurrentYear = new Date().getFullYear()
-    document.write(CurrentYear)</script> a theme by  <a href="https://themefisher.com/">themefisher.com</a></p>
+    document.write(CurrentYear)</script> a theme by  <a href="https://github.com/Mohd-Samad-Siddiqui">Dorkiee</a></p>
   </div>
 </footer>
 
@@ -329,7 +351,7 @@
 <script src="plugins/reading-time/readingTime.min.js"></script>
 
 <!-- Main Script -->
-<script src="js/script.js"></script>
 
+<script src="js/script.js"></script>
 </body>
 </html>
